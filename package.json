@@ -1,0 +1,37 @@
+{
+  "name": "git-rev-cli",
+  "version": "0.1.0",
+  "description": "git-rev CLI",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "eslint src"
+  },
+  "bin": {
+    "git-rev": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nescalante/git-rev-cli.git"
+  },
+  "keywords": [
+    "git",
+    "rev",
+    "cli"
+  ],
+  "author": "Nicolas Escalante <nlante@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nescalante/git-rev-cli/issues"
+  },
+  "homepage": "https://github.com/nescalante/git-rev-cli#readme",
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.10.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "yargs": "^4.7.1",
+    "git-rev-sync": "^1.6.0"
+  }
+}
