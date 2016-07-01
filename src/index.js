@@ -11,9 +11,9 @@ bluebird.promisifyAll(fs);
 module.exports = bluebird.map(files, (filePath) => {
   const json = JSON.stringify({
     commit: git.long(),
-    tag:    git.tag() || '',
+    tag: git.tag() || '',
     branch: git.branch() || '',
-    date:   new Date().toISOString()
+    date: new Date().toISOString(),
   }, null, 2);
 
   return fs.writeFileAsync(filePath, json, 'utf8');

@@ -10,10 +10,22 @@ npm install git-rev-cli -g
 
 ## Usage
 
-From a git repo
+From a Git repo:
 
 ```
 git-rev VERSION
+```
+
+Will create a new file with that name with the Git rev info:
+
+```
+cat VERSION
+{
+  "commit": "foo",
+  "tag": "bar",
+  "branch": "baz",
+  "date": "2000-01-01T00:00:00.000Z"
+}%  
 ```
 
 ## License
