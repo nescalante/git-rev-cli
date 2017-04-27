@@ -1,5 +1,7 @@
 # git-rev CLI
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nescalante/git-rev-cli.svg)](https://greenkeeper.io/)
+
 CLI that uses [git-rev-sync](https://github.com/kurttheviking/git-rev-sync) to create a file with git rev info
 
 ## Install
