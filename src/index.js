@@ -2,9 +2,10 @@
 
 const argv = require('yargs').argv;
 const git = require('git-rev-sync');
-const files = argv._;
 const bluebird = require('bluebird');
 const fs = require('fs');
+
+const files = argv._;
 
 bluebird.promisifyAll(fs);
 
