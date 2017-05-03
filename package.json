@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "bluebird": "^3.4.1",
-    "yargs": "^7.0.2",
+    "yargs": "^8.0.1",
     "git-rev-sync": "^1.6.0"
   }
 }
